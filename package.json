@@ -7,6 +7,9 @@
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
+  "dependencies": {
+    "@strapi/email": "5.0.1"
+  },
   "devDependencies": {
     "prettier": "^3.2.5",
     "turbo": "^2.1.2",
